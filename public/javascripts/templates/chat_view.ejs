@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row-fluid">
+        <header>
+            <div class="span-filler"></div>
+            <div class="span9">
+                <h1>Spacecamp</h1>
+            </div>
+            <div class="span2" id="login">
+                <!-- <button class="btn btn-success" type="button">Login</button> or 
+                <a href="/signup">Sign up</a> -->
+                Hello, <%= nickname %>!
+            </div>
+        </header>
+
+        <div class="span8 well log">
+            <div class="span-filler"></div>
+        </div>
+        <div class="span3 well hidden-phone users">
+            <div class="span-filler"></div>
+            <label>Chatting in: <%= room %></label>
+            <div class="userlist">
+                
+            </div>
+        </div>
+        <div class="span12 privmsg">
+            <input class="span11 privmsg_send" type="text" placeholder="Type a message and hit Enter..."></input>
+        </div>
+    </div>
+</div>

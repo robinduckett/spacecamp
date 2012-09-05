@@ -1,0 +1,57 @@
+.log, .users {
+    height: 300px;
+}
+
+body {
+    background: url('/images/bg.jpg') no-repeat #000;
+}
+
+header h1 {
+    color: #fff !important;
+    margin: 1em 0px;
+}
+
+header #login {
+    color: #fff;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.log, .users {
+    overflow-y: scroll;
+}
+
+.users label {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 8pt;
+    color: #acacac;
+    margin: 0px !important;
+    display: block;
+}
+
+div.span-filler {
+    height: 0px;
+    display: block;
+    min-height: 0px !important;
+}
+
+div.chat-message {
+    margin-left: 0px !important;
+}
+
+div.chat-message .time {
+    font-weight: bold;
+    font-size: 10pt;
+    color: #acacac;
+}
+
+div.chat-message .nickname {
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+div.chat-message .message {
+    font-size: 10pt;
+    margin-top: 1px;
+}
