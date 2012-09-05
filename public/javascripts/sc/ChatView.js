@@ -37,7 +37,7 @@ define(function(require, exports, module) {
                 var details = this.model.toJSON();
                 details.message = $(event.target).val();
                 this.socket.emit('privmsg', details);
-                
+
                 $(event.target).val('');
 
                 return false;
@@ -48,7 +48,7 @@ define(function(require, exports, module) {
             if (this.model.get('nickname')) {
                 var self = this;
 
-                this.socket = io.connect('http://localhost:3000');
+                this.socket = io.connect(location.href);
                 this.render();
                 this.roomView.model.set('room', this.model.get('room'));
 
