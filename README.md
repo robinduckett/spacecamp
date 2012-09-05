@@ -2,6 +2,10 @@
 
 Simple Node.js chat with file sharing (TBA)
 
+# Screenshot
+
+![Spacecamp](http://i.imgur.com/zUeA3.png)
+
 # TODO
 
 * File sharing (upload files with progress etc, maybe Amazon S3 / CORS?)
